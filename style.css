@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 body {
+    font-family: 'Bacasime Antique', serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(-45deg, #4A55A2, #7895CB, #A0BFE0);
     background-size: 400% 400%;
     animation: gradientAnimation 10s ease infinite;
+    color:#3a4599;
+    text-align: center;
   }
   
   @keyframes gradientAnimation {
@@ -17,16 +21,18 @@ body {
       background-position: 0% 50%;
     }
   }
-  .header{
+  .navbar{
     height: 75px;
     background-color: #4c57aa;
     padding:0 20px;
     color: #A0BFE0;
   }
-  .logo{
-    align-items: center;
-    float: left;
+  .navbar img
+  {
     cursor: pointer;
+    padding-top: 12px;
+    width: 70px;
+    float: left;
   }
   .menu{
     float: right;
@@ -92,54 +98,89 @@ body {
     
   }
 
-  .box{
+  .card{
     border-radius: 2%;
-    width: 450px;
+    width: 50%;
     background-color: rgba(247, 247, 247, 0.6);
-    
+    user-select: none;
     padding: 5%;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
-    color:#3a4599;
+    margin-top: 3%;
   }
-  .box img{
+  .card img{
     border-radius: 50%;
     width: 40%;
     cursor: pointer;
     transition: 0.5s;
   }
-  .box img:hover{
+  .card img:hover{
     transform: scale(0.9)
   }
 
-  .box h1{
+  .card h1{
     font-size: 30px;
     letter-spacing: 3px;
   }
 
-  .box h5{
+  .card h5{
     font-size: 15px;
     letter-spacing: 2px;
   }
-  .box p{
+  .card p{
     text-align: justify;
   }
   ul{
     margin: 0;
     padding: 0;
   }
-  .box li{
+  .card li{
     display: inline-block;
     margin: 2%;
     list-style: none;
   }
-  .box li a{
+  .card li a{
     color: #3a4599;
     font-size: 250%;
     transition: all ease-in-out 250ms;
   }
 
-  .box li a:hover{
+  .card li a:hover{
     color: #515aa1;
+  }
+  .abouth{
+    border-radius: 2%;
+    width: 50%;
+    background-color: rgba(247, 247, 247, 0.4);
+    user-select: none;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+  }
+  .skills{
+    border-radius: 2%;
+    width: 50%;
+    background-color: rgba(247, 247, 247, 0.4);
+    user-select: none;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .skills li{
+    list-style: none;
+  }
+  .projects{
+    border-radius: 2%;
+    width: 50%;
+    background-color: rgba(247, 247, 247, 0.4);
+    user-select: none;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
