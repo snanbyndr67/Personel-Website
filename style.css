@@ -9,6 +9,12 @@ body {
     color:#3a4599;
     text-align: center;
   }
+  h1{
+    background-color: rgba(75, 121, 206, 0.2);
+    border-radius: 5cm;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
   
   @keyframes gradientAnimation {
     0% {
@@ -117,12 +123,6 @@ body {
   .card img:hover{
     transform: scale(0.9)
   }
-
-  .card h1{
-    font-size: 30px;
-    letter-spacing: 3px;
-  }
-
   .card h5{
     font-size: 15px;
     letter-spacing: 2px;
